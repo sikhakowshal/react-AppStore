@@ -20,7 +20,7 @@
   border: 2px solid #7b8794;
   border-radius: 6px;
   padding: 5px;
-  width: 35%;
+  width: 50%;
   margin-bottom: 30px;
 }
 
@@ -45,6 +45,13 @@
   align-items: center;
   list-style-type: none;
   margin-bottom: 20px;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .tab-container {
+    width: 50%;
+  }
 }
 
 .app-container {

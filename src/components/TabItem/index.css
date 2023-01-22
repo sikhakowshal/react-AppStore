@@ -7,11 +7,17 @@
   background-color: transparent;
   border: none;
   color: #7b8794;
-  font-size: 20px;
+  font-size: 18px;
   font-family: 'Open Sans';
   font-weight: 500;
-  padding: 0px 30px 8px 30px;
   cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .tab-button {
+    font-size: 24px;
+    padding: 0px 30px 8px 30px;
+  }
 }
 
 .active-tab-btn {
