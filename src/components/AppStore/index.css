@@ -1,0 +1,87 @@
+.app-container {
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(to bottom, #fff1eb, #ace0f9);
+  min-height: 100vh;
+}
+
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 85%;
+  max-width: 1110px;
+}
+
+.title {
+  color: #1e293b;
+  font-size: 40px;
+  font-family: 'Bree Serif';
+  font-weight: bold;
+  margin-top: 64px;
+  margin-bottom: 48px;
+}
+
+@media screen and (min-width: 768px) {
+  .title {
+    font-size: 48px;
+    margin-top: 96px;
+  }
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  background-color: transparent;
+  width: 100%;
+  max-width: 250px;
+  border-radius: 4px;
+  border: 1px solid #7b8794;
+  padding-left: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .search-input-container {
+    max-width: 480px;
+  }
+}
+
+.search-input {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  flex-grow: 1;
+}
+
+.search-icon {
+  height: 25px;
+  width: 25px;
+}
+
+.tabs-container {
+  display: flex;
+  align-items: flex-end;
+  padding-left: 0px;
+  margin-top: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .tabs-container {
+    margin-top: 48px;
+  }
+}
+
+.apps-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  padding-left: 0px;
+}
